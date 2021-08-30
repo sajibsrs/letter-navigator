@@ -12,6 +12,9 @@
     "engines": {
         "vscode": "^1.59.0"
     },
+    "repository": {
+        "url": "https://github.com/sajibsrs/letter-navigator"
+    },
     "categories": [
         "Keymaps"
     ],
