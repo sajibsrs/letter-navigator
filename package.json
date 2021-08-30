@@ -1,0 +1,110 @@
+{
+    "name": "letter-navigator",
+    "displayName": "Letter Navigator",
+    "icon": "icon.png",
+    "author": {
+        "name": "Sajidur Rahman",
+        "email": "sajibsrs@gmail.com"
+    },
+    "publisher": "sajibsrs",
+    "description": "Navigate with letter keys and perform other essential operations. Almost, replacement of the arrow keys!",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.59.0"
+    },
+    "categories": [
+        "Keymaps"
+    ],
+    "keywords": [
+        "kaymaps",
+        "letter-navigator",
+        "navigator",
+        "navigation",
+        "controller",
+        "letter key navigation"
+    ],
+    "contributes": {
+        "keybindings": [
+            {
+                "key": "alt+j",
+                "command": "cursorLeft",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+i",
+                "command": "cursorUp",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+l",
+                "command": "cursorRight",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+k",
+                "command": "cursorDown",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+o",
+                "command": "cursorEnd",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+u",
+                "command": "cursorHome",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+shift+j",
+                "command": "cursorLeftSelect",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+shift+i",
+                "command": "cursorUpSelect",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+shift+l",
+                "command": "cursorRightSelect",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+shift+k",
+                "command": "cursorDownSelect",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "ctrl+alt+j",
+                "command": "cursorWordLeft",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "ctrl+alt+l",
+                "command": "cursorWordRight",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "ctrl+alt+i",
+                "command": "editor.action.moveLinesUpAction",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "ctrl+alt+k",
+                "command": "editor.action.moveLinesDownAction",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "ctrl+shift+alt+j",
+                "command": "cursorWordLeftSelect",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "ctrl+shift+alt+l",
+                "command": "cursorWordRightSelect",
+                "when": "textInputFocus"
+            }
+        ]
+    }
+}
