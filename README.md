@@ -3,11 +3,11 @@
 ### A vscode extension to replace arrow keys
 Navigate with letter keys and perform other essential operations. Almost, replacement for the arrow keys.
 ___
-`It helps to keep your hand in the same place when typing, but it may take some time to get used to it.`
+It helps to keep your hand in the same place when typing, but it may take some time to get used to it.
 ___
 
 ## Instructions
-`NOTE: ALT key is option key on Mac.`
+NOTE: ALT key is option key on Mac.
 
 ### Cursor movement
 - `alt+j` = Move cursor left
@@ -33,7 +33,7 @@ ___
 - `alt+u` = Move to beginning of the line
 - `alt+o` = Move to end of the line
 
-`NOTE: You may lose your cursor (lose focus) if you press 'ALT' button single. Press 'Esc' key to get your cursor back. =)`
+NOTE: You may lose your cursor (lose focus) if you press 'ALT' button single. Press 'Esc' key to get your cursor back. =)
 
 ## Installation
 
