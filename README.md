@@ -42,6 +42,7 @@ ___
 ### Select next / previous suggestion
 - `alt+k` = Select next suggestion
 - `alt+i` = Select previous suggestion
+
 > You may lose your cursor (lose focus) if you press `Alt` button single. Press `Esc` or `Alt` key to get your cursor back.
 
 ## Installation
