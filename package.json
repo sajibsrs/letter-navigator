@@ -8,7 +8,7 @@
     },
     "publisher": "sajibsrs",
     "description": "Navigate with letter keys and perform other essential operations. Almost, replacement of the arrow keys!",
-    "version": "0.0.3",
+    "version": "0.1.1",
     "engines": {
         "vscode": "^1.59.0"
     },
