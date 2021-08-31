@@ -107,6 +107,16 @@
                 "key": "ctrl+shift+alt+l",
                 "command": "cursorWordRightSelect",
                 "when": "textInputFocus"
+            },
+            {
+                "key": "alt+k",
+                "command": "selectNextSuggestion",
+                "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+            },
+            {
+                "key": "alt+i",
+                "command": "selectPrevSuggestion",
+                "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
             }
         ]
     }

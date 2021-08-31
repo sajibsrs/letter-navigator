@@ -6,34 +6,43 @@ ___
 It helps to keep your hand in the same place when typing, but it may take some time to get used to it.
 ___
 
-## Instructions
-NOTE: ALT key is option key on Mac.
+> `Alt` key is the `Option` key on Mac.
 
+## Movement
 ### Cursor movement
 - `alt+j` = Move cursor left
 - `alt+l` = Move cursor right
 - `alt+i` = Move cursor up
 - `alt+k` = Move cursor down
 
-### Selection
-- `alt+shift+j` = Select cursor left
-- `alt+shift+l` = Select cursor right
-- `alt+shift+i` = Select cursor up
-- `alt+shift+k` = Select cursor down
-
-### Move by word
+### Move cursor by word
 - `ctrl+alt+j` = Move to left word's beginning
 - `ctrl+alt+l` = Move to right word's end
+
+### Move cursor to line start / end
+- `alt+u` = Move to beginning of the line
+- `alt+o` = Move to end of the line
 
 ### Line up / down
 - `ctrl+alt+i` = Move line up
 - `crtl+alt+k` = Move line down
 
-### Line start / end
-- `alt+u` = Move to beginning of the line
-- `alt+o` = Move to end of the line
+## Selection
+### Basic selection
+- `alt+shift+j` = Select cursor left
+- `alt+shift+l` = Select cursor right
+- `alt+shift+i` = Select cursor up
+- `alt+shift+k` = Select cursor down
 
-NOTE: You may lose your cursor (lose focus) if you press 'ALT' button single. Press 'Esc' key to get your cursor back. =)
+### Select by word
+- `ctrl+shift+alt+j` = Select to previous word beginning
+- `ctrl+shift+alt+l` = Select to next word end
+
+## Context based keybindings
+### Select next / previous suggestion
+- `alt+k` = Select next suggestion
+- `alt+i` = Select previous suggestion
+> You may lose your cursor (lose focus) if you press `Alt` button single. Press `Esc` or `Alt` key to get your cursor back.
 
 ## Installation
 
