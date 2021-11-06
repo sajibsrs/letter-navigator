@@ -59,26 +59,6 @@
                 "when": "textInputFocus"
             },
             {
-                "key": "alt+shift+j",
-                "command": "cursorLeftSelect",
-                "when": "textInputFocus"
-            },
-            {
-                "key": "alt+shift+i",
-                "command": "cursorUpSelect",
-                "when": "textInputFocus"
-            },
-            {
-                "key": "alt+shift+l",
-                "command": "cursorRightSelect",
-                "when": "textInputFocus"
-            },
-            {
-                "key": "alt+shift+k",
-                "command": "cursorDownSelect",
-                "when": "textInputFocus"
-            },
-            {
                 "key": "ctrl+alt+j",
                 "command": "cursorWordLeft",
                 "when": "textInputFocus"
@@ -99,6 +79,26 @@
                 "when": "textInputFocus"
             },
             {
+                "key": "alt+shift+j",
+                "command": "cursorLeftSelect",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+shift+i",
+                "command": "cursorUpSelect",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+shift+l",
+                "command": "cursorRightSelect",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+shift+k",
+                "command": "cursorDownSelect",
+                "when": "textInputFocus"
+            },
+            {
                 "key": "ctrl+shift+alt+j",
                 "command": "cursorWordLeftSelect",
                 "when": "textInputFocus"
@@ -106,6 +106,16 @@
             {
                 "key": "ctrl+shift+alt+l",
                 "command": "cursorWordRightSelect",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "ctrl+shift+alt+u",
+                "command": "cursorHomeSelect",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "ctrl+shift+alt+o",
+                "command": "cursorEndSelect",
                 "when": "textInputFocus"
             },
             {
@@ -117,6 +127,24 @@
                 "key": "alt+i",
                 "command": "selectPrevSuggestion",
                 "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+            },
+            {
+                "key": "ctrl+alt+u",
+                "command": "workbench.action.previousEditor"
+            },
+            {
+                "key": "ctrl+alt+o",
+                "command": "workbench.action.nextEditor"
+            },
+            {
+                "key": "ctrl+alt+shift+i",
+                "command": "scrollLineUp",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "ctrl+alt+shift+k",
+                "command": "scrollLineDown",
+                "when": "editorTextFocus"
             }
         ]
     }

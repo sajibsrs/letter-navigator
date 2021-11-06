@@ -1,5 +1,10 @@
-# README
-## Letter navigator
+![banner](https://raw.githubusercontent.com/sajibsrs/letter-navigator/master/banner.png)
+
+# Letter navigator
+[![version](https://img.shields.io/vscode-marketplace/v/sajibsrs.letter-navigator.svg?style=flat&label=current)](https://marketplace.visualstudio.com/items/sajibsrs.letter-navigator) &nbsp;
+[![installs](https://img.shields.io/vscode-marketplace/d/sajibsrs.letter-navigator.svg?style=flat&label=downloads)](https://marketplace.visualstudio.com/items/sajibsrs.letter-navigator) &nbsp;
+[![ratings](https://img.shields.io/vscode-marketplace/r/sajibsrs.letter-navigator.svg?style=flat&label=rating)](https://marketplace.visualstudio.com/items/sajibsrs.letter-navigator)
+
 ### A vscode extension to replace arrow keys
 Navigate with letter keys and perform other essential operations. Almost, replacement for the arrow keys.
 ___
@@ -23,7 +28,7 @@ ___
 - `alt+u` = Move to beginning of the line
 - `alt+o` = Move to end of the line
 
-### Line up / down
+### Move line up / down
 - `ctrl+alt+i` = Move line up
 - `crtl+alt+k` = Move line down
 
@@ -37,6 +42,19 @@ ___
 ### Select by word
 - `ctrl+shift+alt+j` = Select to previous word beginning
 - `ctrl+shift+alt+l` = Select to next word end
+
+### Select to start / end of line from cursor
+- `ctrl+shift+alt+u` = Select to start of line from  cursor
+- `ctrl+shift+alt+o` = Select to end of line from  cursor
+
+## Workbech
+### Tab switching
+- `ctrl+alt+u` = Previous editor tab
+- `ctrl+alt+u` = Next editor tab
+
+### Line scrolling
+- `ctrl+alt+shift+i` = Scroll line up
+- `ctrl+alt+shift+k` = Scroll line down 
 
 ## Context based keybindings
 ### Select next / previous suggestion
@@ -60,7 +78,7 @@ ext install sajibsrs.letter-navigator
 - Enter
 
 ## Notes
-* Still in `beta` version. So there might be some issues.
+* If you find any issues or have any suggestions make a `PR` or send a mail at `sajibsrs@gmail.com`
 
 ---
-If you like it, then please rate it. Thank you ❤️
+If you like it, please rate it. Thank you ❤️
