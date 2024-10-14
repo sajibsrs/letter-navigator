@@ -6,7 +6,7 @@
 [![ratings](https://img.shields.io/vscode-marketplace/r/sajibsrs.letter-navigator.svg?style=flat&label=rating)](https://marketplace.visualstudio.com/items/sajibsrs.letter-navigator)
 
 ### A vscode extension to replace arrow keys
-Navigate with letter keys and perform other essential operations. Almost, replacement for the arrow keys.
+Navigate with letter keys and perform other essential operations. Replacement for the arrow keys (almost).
 ___
 It helps to keep your hand in the same place when typing, but it may take some time to get used to it.
 ___
